@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npx json-server --watch db.json --middlewares ./validate.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "npm install && npx json-server --watch db.json --middlewares ./validate.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
