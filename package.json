@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx json-server --watch db.json --middlewares ./validate.js",
+    "postinstall": "npx json-server --watch db.json --middlewares ./validate.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "npm install && npx json-server --watch db.json --middlewares ./validate.js"
   },
